@@ -251,7 +251,7 @@ services:
     image: systementry-6443
     container_name: systementry-6443
     ports: 
-      - 8111:8111
+      - 8127:8127
     env_file: .env
     depends_on:
       - mongo
@@ -272,7 +272,7 @@ services:
     image: student-6443
     container_name: student-6443
     ports: 
-      - 8112:8112
+      - 8128:8128
     env_file: .env
     depends_on:
       - mongo

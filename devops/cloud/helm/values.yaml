@@ -57,14 +57,14 @@ service:
   systementry: 
     name: systementry
     type: NodePort
-    port: 8111
-    targetPort: 8111
+    port: 8127
+    targetPort: 8127
 
   student: 
     name: student
     type: NodePort
-    port: 8112
-    targetPort: 8112
+    port: 8128
+    targetPort: 8128
 
 
 deployment:
